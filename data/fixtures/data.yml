@@ -1,0 +1,249 @@
+Department:
+  Department_1:
+    name: 'Тайгам Алтай Агуулах'
+LinkingRoleMenu:
+  LinkingRoleMenu_1:
+    role_id: '1'
+    menu_id: '1'
+  LinkingRoleMenu_2:
+    role_id: '1'
+    menu_id: '2'
+  LinkingRoleMenu_3:
+    role_id: '1'
+    menu_id: '3'
+  LinkingRoleMenu_4:
+    role_id: '1'
+    menu_id: '4'
+  LinkingRoleMenu_5:
+    role_id: '1'
+    menu_id: '5'
+  LinkingRoleMenu_6:
+    role_id: '1'
+    menu_id: '6'
+  LinkingRoleMenu_7:
+    role_id: '1'
+    menu_id: '7'
+  LinkingRoleMenu_8:
+    role_id: '1'
+    menu_id: '8'
+  LinkingRoleMenu_9:
+    role_id: '1'
+    menu_id: '9'
+  LinkingRoleMenu_10:
+    role_id: '1'
+    menu_id: '10'
+  LinkingRoleMenu_11:
+    role_id: '1'
+    menu_id: '11'
+  LinkingRoleMenu_12:
+    role_id: '1'
+    menu_id: '12'
+  LinkingRoleMenu_13:
+    role_id: '1'
+    menu_id: '13'
+  LinkingRoleMenu_14:
+    role_id: '1'
+    menu_id: '14'
+  LinkingRoleMenu_15:
+    role_id: '1'
+    menu_id: '15'
+  LinkingRoleMenu_16:
+    role_id: '1'
+    menu_id: '16'
+  LinkingRoleMenu_17:
+    role_id: '1'
+    menu_id: '17'
+  LinkingRoleMenu_18:
+    role_id: '1'
+    menu_id: '18'
+  LinkingRoleMenu_19:
+    role_id: '1'
+    menu_id: '19'
+  LinkingRoleMenu_20:
+    role_id: '1'
+    menu_id: '20'
+  LinkingRoleMenu_21:
+    role_id: '1'
+    menu_id: '21'
+  LinkingRoleMenu_22:
+    role_id: '1'
+    menu_id: '22'
+  LinkingRoleMenu_23:
+    role_id: '1'
+    menu_id: '23'
+  LinkingRoleMenu_24:
+    role_id: '2'
+    menu_id: '6'
+  LinkingRoleMenu_25:
+    role_id: '2'
+    menu_id: '14'
+Menu:
+  Menu_1:
+    menu_name: 'Системийн тохиргоо'
+    menu_eng: 'System configuration'
+    menu_ord: '1'
+    menu_desc: glyphicon-wrench
+    menu_state: ''
+  Menu_2:
+    menu_name: 'Цэс удирдах'
+    menu_eng: Menu
+    Parent: Menu_1
+    menu_ord: '1'
+    menu_desc: glyphicon-tasks
+    menu_state: /menu
+  Menu_6:
+    menu_name: 'Mатериалын төрөл '
+    menu_eng: 'Inventory type'
+    Parent: Menu_5
+    menu_ord: '1'
+    menu_desc: ''
+    menu_state: /inventorytype
+  Menu_14:
+    menu_name: 'Эхний үлдэгдэл'
+    menu_eng: 'Begin balance'
+    Parent: Menu_13
+    menu_ord: '1'
+    menu_desc: ''
+    menu_state: /
+  Menu_18:
+    menu_name: Ажилбар
+    menu_eng: 'Work list'
+    Parent: Menu_17
+    menu_ord: '1'
+    menu_desc: ''
+    menu_state: ''
+  Menu_22:
+    menu_name: 'Ажилбар орцоор'
+    menu_eng: 'Works by detail'
+    Parent: Menu_21
+    menu_ord: '1'
+    menu_desc: ''
+    menu_state: ''
+  Menu_3:
+    menu_name: 'Хандах эрх'
+    menu_eng: Role
+    Parent: Menu_1
+    menu_ord: '2'
+    menu_desc: glyphicon-lock
+    menu_state: /roles
+  Menu_5:
+    menu_name: 'Лавлах бүртгэл'
+    menu_eng: 'Foreign data'
+    menu_ord: '2'
+    menu_desc: glyphicon-book
+    menu_state: ''
+  Menu_7:
+    menu_name: 'Mатериалын бүлэг'
+    menu_eng: 'Inventory group'
+    Parent: Menu_5
+    menu_ord: '2'
+    menu_desc: ''
+    menu_state: ''
+  Menu_15:
+    menu_name: 'Орлого авах'
+    menu_eng: 'To income'
+    Parent: Menu_13
+    menu_ord: '2'
+    menu_desc: ''
+    menu_state: ''
+  Menu_19:
+    menu_name: 'Ажлын хөлс'
+    menu_eng: Wages
+    Parent: Menu_17
+    menu_ord: '2'
+    menu_desc: ''
+    menu_state: ''
+  Menu_23:
+    menu_name: 'Ажлын хөлс'
+    menu_eng: 'Wages report'
+    Parent: Menu_21
+    menu_ord: '2'
+    menu_desc: ''
+    menu_state: ''
+  Menu_4:
+    menu_name: 'Системийн хэрэглэгч'
+    menu_eng: 'System users'
+    Parent: Menu_1
+    menu_ord: '3'
+    menu_desc: glyphicon-user
+    menu_state: /systemuser
+  Menu_8:
+    menu_name: 'Хэмжих нэгж'
+    menu_eng: 'Measure unit'
+    Parent: Menu_5
+    menu_ord: '3'
+    menu_desc: ''
+    menu_state: /units
+  Menu_13:
+    menu_name: 'Бараа материал'
+    menu_eng: Inventory
+    menu_ord: '3'
+    menu_desc: ''
+    menu_state: ''
+  Menu_16:
+    menu_name: 'Шилжилт хөдөлгөөн'
+    menu_eng: Movement
+    Parent: Menu_13
+    menu_ord: '3'
+    menu_desc: ''
+    menu_state: ''
+  Menu_20:
+    menu_name: 'Mатериалын зардал'
+    menu_eng: 'Inventory outcome'
+    Parent: Menu_17
+    menu_ord: '3'
+    menu_desc: ''
+    menu_state: ''
+  Menu_9:
+    menu_name: Байршил
+    menu_eng: Location
+    Parent: Menu_5
+    menu_ord: '4'
+    menu_desc: ''
+    menu_state: ''
+  Menu_17:
+    menu_name: Төсөв
+    menu_eng: Budget
+    menu_ord: '4'
+    menu_desc: ''
+    menu_state: ''
+  Menu_10:
+    menu_name: Хотхон
+    menu_eng: Town
+    Parent: Menu_5
+    menu_ord: '5'
+    menu_desc: ''
+    menu_state: /town
+  Menu_21:
+    menu_name: Тайлан
+    menu_eng: Reports
+    menu_ord: '5'
+    menu_desc: ''
+    menu_state: ''
+  Menu_11:
+    menu_name: Байр
+    menu_eng: Apartment
+    Parent: Menu_5
+    menu_ord: '6'
+    menu_desc: ''
+    menu_state: /apartment
+  Menu_12:
+    menu_name: Орц
+    menu_eng: Entry
+    Parent: Menu_5
+    menu_ord: '7'
+    menu_desc: ''
+    menu_state: ''
+Roles:
+  Roles_1:
+    name: Админ
+  Roles_2:
+    name: engineer
+SystemUser:
+  SystemUser_2:
+    login_name: admin
+    login_password: 21232f297a57a5a743894a0e4a801fc3
+    display_name: Администратор
+    status: true
+    Department: Department_1
+    Roles: Roles_1

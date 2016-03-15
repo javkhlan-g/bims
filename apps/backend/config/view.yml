@@ -1,0 +1,35 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+   
+  stylesheets:    
+   # - /sfTwitterBootstrapPlugin/bootstrap-32-dist/css/bootstrap.css
+   # - /sfTwitterBootstrapPlugin/bootstrap-32-dist/css/bootstrap-theme.min.css
+    - /sfTwitterBootstrapPlugin/bootstrap-32-dist/css/bootstrap.min.css
+    - /sfTwitterBootstrapPlugin/bootstrap-32-dist/css/bootstrap-theme.min.css: {media: 'print ,screen'}
+    - /sfTwitterBootstrapPlugin/css/style.css
+    - /sfTwitterBootstrapPlugin/css/bootstrap-datetimepicker.min.css   
+    - /sfTwitterBootstrapPlugin/css/bootstrap-select.min.css
+    - menu.css    
+  javascripts:
+    - "/sfTwitterBootstrapPlugin/js/jquery-1.9.1.min.js"        
+    - "/sfTwitterBootstrapPlugin/js/application.js"
+    - "/sfTwitterBootstrapPlugin/js/bootbox/bootbox.min.js"
+    - "/sfTwitterBootstrapPlugin/bootstrap-32-dist/js/bootstrap.min.js"  
+    - "/sfTwitterBootstrapPlugin/js/bootstrap-datetimepicker.min.js"
+    - "/sfTwitterBootstrapPlugin/js/bootstrap-select.min.js"    
+    - menu.js   
+  layout:         layout
+  has_layout:     true
+  

@@ -1,0 +1,36 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Menu
+    theme:                 twitter
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          menu
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    config:
+      actions: ~
+      fields:
+        menu_name:
+          label: Нэр
+        menu_eng:
+          label: Англи
+        Parent:
+          label: Үндсэн цэс
+        menu_parent:
+          label: Үндсэн цэс
+        menu_state:
+          label: Хаяг
+        menu_ord:
+          label: Дараалал
+        menu_desc:
+          label: Тайлбар
+      list:    
+          display: ['menu_name','menu_eng','Parent','menu_state']
+          max_per_page: 20
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

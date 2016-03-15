@@ -1,0 +1,38 @@
+/*
+ * metismenu - v1.1.1
+ * Easy menu jQuery plugin for Twitter Bootstrap 3
+ * https://github.com/onokumus/metisMenu
+ *
+ * Made by Osman Nuri Okumus
+ * Under MIT License
+ */
+.leftsidebar {
+    background: none repeat scroll 0 0 #333;
+    display: block;
+    float: left;
+    width: 250px;
+    background: transparent;    
+}
+.modal-header-info {
+    background-color: #cde8f1;
+    border-bottom: 1px solid #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    padding: 9px 15px;
+}
+
+.modal-footer-info {
+    background-color: #cde8f1;
+    border-top: 1px solid #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    padding: 9px 15px;
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(/font-awesome/font/roboto.woff2) format('woff2'), url(/font-awesome/font/roboto.woff) format('woff');
+}

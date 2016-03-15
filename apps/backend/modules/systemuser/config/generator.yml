@@ -1,0 +1,50 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           systemuser
+    theme:                 twitter
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          systemuser
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    with_show: true
+
+    config:
+      actions: ~
+      fields:
+        system_user_id:
+          label: №
+        login_name:
+          label: Нэвтрэх нэр
+        login_password:
+          label: Нууц үг
+        display_name:
+          label: Харагдах нэр
+        status:
+          label: Нээлттэй
+        last_ticket_number:
+          label: Cүүлд борлуулсан тийз
+        last_name:
+          label: Овог
+        booking_office_id:
+          label: Салбар касс
+        BookingOffice:
+          label: Салбар касс
+        rolegroup_id:
+          label: Хандах эрх
+        Role:
+          label: Хандах эрх
+        last_ref_number:
+          label: Сүүлд буцаасан тийз
+      list:    
+        display: ['login_name','Roles','Department','status']
+        max_per_page:   10
+        object_actions:
+          _show: { action: _show }
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

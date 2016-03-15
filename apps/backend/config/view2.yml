@@ -1,0 +1,45 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+   
+  stylesheets:
+    - /sfTwitterBootstrapPlugin/bootstrap/docs/assets/css/bootstrap.css # compiled css are now in the docs
+    - /sfTwitterBootstrapPlugin/css/style.css
+    - /sfTwitterBootstrapPlugin/css/jquery-ui-1.10.2.custom.min.css # For date pickers ...
+    - /sfTwitterBootstrapPlugin/css/color-my-env.css   
+    - /sfTwitterBootstrapPlugin/css/bootstrap-datetimepicker.min.css   
+    - /sfTwitterBootstrapPlugin/css/bootstrap-select.min.css  
+    - menu.css
+    - layout.css
+  javascripts:
+    - "/sfTwitterBootstrapPlugin/js/jquery-1.9.1.min.js"
+    - "/sfTwitterBootstrapPlugin/bootstrap/js/bootstrap-dropdown.js"
+    - "/sfTwitterBootstrapPlugin/bootstrap/js/bootstrap-tooltip.js"
+    - "/sfTwitterBootstrapPlugin/bootstrap/js/bootstrap-scrollspy.js"
+    - "/sfTwitterBootstrapPlugin/bootstrap/js/bootstrap-modal.js"
+    - "/sfTwitterBootstrapPlugin/bootstrap/js/bootstrap-alert.js"
+    - "/sfTwitterBootstrapPlugin/bootstrap/js/bootstrap-collapse.js"    
+    - "/sfTwitterBootstrapPlugin/js/application.js"
+    - "/sfTwitterBootstrapPlugin/js/bootbox/bootbox.min.js"
+    - "/sfTwitterBootstrapPlugin/js/google-code-prettify/prettify.js"
+    - "/sfTwitterBootstrapPlugin/js/jquery.tablesorter.min.js"
+    - "/sfTwitterBootstrapPlugin/js/bootstrap-datetimepicker.min.js"
+    - "/sfTwitterBootstrapPlugin/js/bootstrap-select.min.js"
+    - menu.js
+    - layout.js
+
+
+  layout:         layout
+  has_layout:     true
+  
